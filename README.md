@@ -32,3 +32,5 @@ To achieve the required task to detect if someone stands in front of the robot f
     
   lcd.print("Hello");
   RGB_color(0, 255, 0); // Green Color
+  
+  I hope you like it!
