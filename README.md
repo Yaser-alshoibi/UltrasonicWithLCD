@@ -24,11 +24,11 @@ https://user-images.githubusercontent.com/85786699/125509294-a59e96ee-e9e7-42ce-
 
 To achieve the required task to detect if someone stands in front of the robot for **more than 3 seconds** instead of using the internal clock for Arduino I used if statement, then 3 seconds delay, then another if statement to check if the person still in front of the robot or not to decide whether greeting the person or not.
 
-`if ( distance > 100 && distance < 250){
+```if ( distance > 100 && distance < 250){
     
   delay(3000);
   if ( distance > 100 && distance < 250 )
   {
     
   lcd.print("Hello");
-  RGB_color(0, 255, 0); // Green Color`
+  RGB_color(0, 255, 0); // Green Color```
